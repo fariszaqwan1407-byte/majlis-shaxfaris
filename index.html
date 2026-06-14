@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faris & Nurshafiqah Wedding</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- FLOATING FLOWERS -->
+<div class="flowers"></div>
+
+<!-- CURTAIN INTRO -->
+<section class="scene curtain-scene">
+  <div class="curtain left"></div>
+  <div class="curtain right"></div>
+
+  <div class="hero-text">
+    <h1>Faris & Nurshafiqah</h1>
+    <p>27 September 2026</p>
+  </div>
+</section>
+
+<!-- ENVELOPE -->
+<section class="scene envelope-scene">
+  <div class="envelope" onclick="openCard()">
+    <div class="env-inner">💌</div>
+    <p>Tekan untuk buka jemputan</p>
+  </div>
+</section>
+
+<!-- INVITATION CARD -->
+<section id="card" class="card">
+
+  <h2>Dengan penuh kesyukuran</h2>
+  <p>Kami menjemput Tuan/Puan ke majlis perkahwinan kami</p>
+
+  <div class="names">
+    Faris Zaqwan<br>
+    &<br>
+    Nurshafiqah
+  </div>
+
+  <div class="info">
+    <p><b>Tarikh:</b> 27 September 2026</p>
+    <p><b>Masa:</b> 11.00 pagi – 4.00 petang</p>
+    <p><b>Lokasi:</b> Tapaq Sanding, Batu Caves</p>
+  </div>
+
+  <!-- COUNTDOWN -->
+  <div id="countdown"></div>
+
+  <!-- RSVP -->
+  <a class="btn" href="https://wa.me/60XXXXXXXXX" target="_blank">
+    RSVP WhatsApp
+  </a>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
